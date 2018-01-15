@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+    @import url('css/style.css');
+</style>
+</head>
+<body>
+<div id="content">
+    <div id="search_area">
+        <input type="text" id="txtSearch" placeholder="Search query..."/>&nbsp;
+        <input type="button" id="btnSearch" value="Search"/>
+    </div>
+    <div id="results">
+        <div class="row">
+            Total results: <span class="totalCount">0</span>
+            <div class="paginate_wrapper">
+                <div class="arrow-left"></div>
+                <div class="paginate_text">1/1</div>
+                <div class="arrow-right"></div>
+            </div><br /><br />
+            <ul id="listing" />
+        </div>
+    </div>
+</div>
+
+<script src="js/script.js"></script>
+</body>
+</html>
